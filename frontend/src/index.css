@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html {
+  @apply h-screen bg-gray-100
+}
+
+body.dark{
+  @apply bg-slate-950
+}
